@@ -11,10 +11,9 @@ may even find an interesting historical perspective, like the various
 
 - Artillery
 - Blockade
-- Bosconian
+- Bosconian (Kobo)
 - Nebulus
-- Clean Sweep
+- Clean Sweep (Breakout)
 - Pipe Mania
 - Scramble
 - Thrust
-

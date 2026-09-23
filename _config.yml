@@ -17,3 +17,18 @@ aux_links:
 collections:
   games:
     output: true
+    permalink: "/:path"
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "games"
+  values:
+    title: /:path
+    
+
+just_the_docs:
+  collections:
+    games:
+      name: Games

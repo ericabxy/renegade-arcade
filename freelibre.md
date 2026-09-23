@@ -8,14 +8,19 @@ Master List
 -----------
 
 * [Anarch](https://drummyfish.gitlab.io/anarch/)
+* Ardentryst
 * Barbie the Seahorse
 * Battle for Wesnoth
 * Chocolate Freedoom
 * Cupid
+* Freedink
 * Freedroid
+* Freedroid RPG
 * HASE
 * Kobo Deluxe
+* 20,000 Lightyears Into Space
 * Maze of Galious
+* [Meritous](https://www.asceai.net/meritous/)
 * Mindustry
 * Minetest
 * OpenArena
@@ -27,6 +32,7 @@ Master List
 * Ryzom
 * rRootage
 * Solarwolf
+* Vectoroids
 * Veloran
 * XMage
 * Xonotic

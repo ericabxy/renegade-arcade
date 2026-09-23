@@ -1,0 +1,19 @@
+title: Renegade Arcade
+description: A knowledge base for video game mechanics and programming techniques.
+theme: just-the-docs
+color_scheme: dark
+
+url: https://ericabxy.github.io/renegade-arcade
+
+plugins:
+- jekyll-default-layout
+- jekyll-optional-front-matter
+- jekyll-readme-index
+- jekyll-titles-from-headings
+
+aux_links:
+  Template Repository: https://github.com/ericabxy/renegade-arcade
+
+collections:
+  games:
+    output: true

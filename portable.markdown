@@ -1,5 +1,5 @@
-Portable Games
---------------
+Portability
+===========
 
 The ease with which a video game can be installed and executed is an essential feature. The game should be obtained from canonical sources; from the official proprietor or trusted redistributors (file sources which are considered "shady" by an end-user are a problem). It should also be easy to copy them game to give to someone else, keep it in a personal archive for later reinstallation, or move it to a different computer or storage structure.
 

@@ -6,7 +6,7 @@ A curated software freedom video game and development library.
 Principles
 ----------
 
-Good games should be [portable](portable.md), [accessible](accessible.md), and [reproducible](reproducible.md).
+Good games should be [portable](portable), [accessible](accessible.md), and [reproducible](reproducible.md).
 
 
 Controls

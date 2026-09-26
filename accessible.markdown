@@ -1,5 +1,5 @@
-Accessible Games
-================
+Accessibility
+=============
 
 Video games should be accessible in the broadest sense. It should be easy to install and start up, as well as easy to understand and get started playing. Even very complex games should have an easy-to-understand initial game state and discoverable control scheme.
 

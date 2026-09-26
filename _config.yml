@@ -15,6 +15,9 @@ aux_links:
   Template Repository: https://github.com/ericabxy/renegade-arcade
 
 collections:
+  feeds:
+    output: true
+    permalink: "/:path"
   games:
     output: true
     permalink: "/:path"
@@ -26,7 +29,11 @@ defaults:
     type: "games"
   values:
     title: /:path
-    
+-
+  scope:
+    path: "README.md"
+  values:
+    nav_exclude: true
 
 just_the_docs:
   collections:

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Mindustry</name>
+  <summary>The automation tower defense RTS, written in Java.</summary>
+
+  <!-- Optional fields
+  <description>
+    A longer description goes here.
+
+    You can include multiple paragraphs too.
+  </description>
+
+  <homepage>https://mindustrygame.github.io/</homepage>
+
+  <feed-for interface="http://example.com/0install/myprog.xml"/>
+  -->
+
+  <group license="GNU General Public License v3.0">
+    <command name="run" path="Mindustry.jar">
+      <runner interface="https://apps.0install.net/java/jre.xml" version="17..">
+	      <arg>-jar</arg>
+      </runner>
+    </command>
+
+    <!-- Add additional requirements here.
+    <requires interface="..."/>
+    -->
+
+    <implementation version="{version}" released="{released}" stability="stable">
+      <manifest-digest/>
+      <file href="https://github.com/Anuken/Mindustry/releases/download/v{version}/Mindustry.jar" dest="Mindustry.jar"/>
+    </implementation>
+  </group>
+</interface>

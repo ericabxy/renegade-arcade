@@ -1,0 +1,21 @@
+name: Freedoom
+summary: a free content stand-alone game based on the Doom engine
+description: >-
+  The Freedoom project aims to create a complete free content game based on the Doom engine.
+
+  Phase 1 is the first part of the single-player game, containing four chapters which are nine levels each, smoothly paced for beginner players. It is compatible with mods for the original Doom and The Ultimate Doom.
+
+  Phase 2 is the second major part of the single-player game, a massive 32-level chapter expanding upon the same concepts present in Phase 1, as well as containing additional monsters and the double-barreled shotgun! The levels in this game tend to demand more skillful play than the previous chapters. It is compatible with mods for Doom II.
+homepage: https://freedoom.github.io/
+group:
+  license: modified BSD License
+  command:
+    name: run
+    runner:
+      interface: https://ericxdu.gitlab.io/feeds/GZDoom.xml
+  implementation:
+    archive:
+      href: https://github.com/freedoom/freedoom/releases/download/v{version}/freedoom-{version}.zip
+    environment:
+      insert: ""
+      name: "DOOMWADDIR"

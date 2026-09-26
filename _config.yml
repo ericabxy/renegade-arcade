@@ -31,7 +31,7 @@ defaults:
     title: /:path
 -
   scope:
-    path: "README.md"
+    path: "readme.md"
   values:
     nav_exclude: true
 

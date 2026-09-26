@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://arcade.radicalgnu.xyz/Atari800.xml">
+  <name>Atari800</name>
+  <summary>portable and free Atari 8-bit emulator</summary>
+
+  <description>
+    Atari800 is the emulator of Atari 8-bit computer systems and 5200 
+    game console for Unix, Linux, Amiga, MS-DOS, Atari TT/Falcon, 
+    MS-Windows, MS WinCE, Sega Dreamcast, Android and other systems 
+    supported by the SDL library. Our main objective is to create a 
+    freely distributable portable emulator (i.e. with source code 
+    available).
+  </description>
+
+  <homepage>https://atari800.github.io/</homepage>
+
+  <feed-for interface="https://arcade.radicalgnu.xyz/Atari800.xml"/>
+
+  <group license="GNU General Public License, version 2">
+    <!--
+    <implementation arch="Linux-i386" version="{version}">
+      <manifest-digest />
+      <archive href="http://downloads.sourceforge.net/atari800/atari800_{version}_i386.deb" />
+      <command name="run" path="usr/bin/atari800"/>
+    </implementation>
+    -->
+    <implementation arch="Linux-x86_64" version="5.2.0" released="2025-12-16" id="sha1new=0028aaef8bd05ca59e97b8bfc779e05c818400cd">
+      <manifest-digest sha256new="TWWP2GVANA7ACAX5WPVLYY2SXK3GRJ37OIKQJ46UAQSDVPWZR3EA"/>
+      <archive href="https://github.com/atari800/atari800/releases/download/ATARI800_5_2_0/atari800_5.2.0_amd64.deb" size="500672"/>
+      <command name="run" path="usr/bin/atari800"/>
+    </implementation>
+
+    <!-- Add additional requirements here.
+    <requires interface="..."/>
+    -->
+  </group>
+</interface>
+<!-- Base64 Signature
+iQGzBAABCgAdFiEEo5Yv1kKwLPVcs2C+9f+Y4Tj0AiEFAmlCM2EACgkQ9f+Y4Tj0AiEoeQv/TdHV
+uexrr7KqWpDhZ6rjIlZR3T4kPGUtDuygFI28EdpK4AvVc+5aAzEzjbCehQqbmBQYCsXJsrdqVzHD
+dhbl0AuITMVIh9QV/7OxfqwF4e1BxsgRz+SjovBA7w3l/HWUW4b7zgDmZ1vvdnUXbaTzA/GYIHgR
+mUSBjInHuTr5u2hTgzvfP0YpoB0ugD3/iDMz1Hmog58ZNjkAerVrptHzLcAAPIyGaVP5wp9moVix
+xlf6ZVqhIXkJIbxoJzGSSGSUrxvYsrrRRm76oTaN5maiIWlj7vh6cPHgWaxZhjI+XhQntaTxbQza
+tCLkLWsTWoOzBH5aGwLzQ3vrw6Hoa2NSr2W0WmhPiSHXrlInNQFN23eGEEV+1kmGUEeM1NFabfVL
+3PbnNMsGExpRxxY6KiPRfr5yYYyFIFEfx1p8CMJGBlD1xbXGcm11KyjNtup4vh7Y0cmmb0jkXnbv
+OPbBN/HzOGbNxpK6Ld/csS9IXvtlwKY8mp3V5TO4e6hVcnaAmseu
+
+-->

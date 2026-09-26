@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Mindustry</name>
   <summary>The automation tower defense RTS, written in Java.</summary>
 
-  <!-- Optional fields
   <description>
-    A longer description goes here.
-
-    You can include multiple paragraphs too.
+    Mindustry is a factory-building game with tower defense and RTS elements. Create elaborate supply chains to feed ammo into your turrets, produce materials to use for building, and construct units. Command units to capture enemy bases, and expand your production. Defend your core from waves of enemies.
   </description>
+
+  <icon href="mindustry.icon.png" type="image/png"/>
 
   <homepage>https://mindustrygame.github.io/</homepage>
 
   <feed-for interface="https://arcade.radicalgnu.xyz/Mindustry"/>
-  -->
 
   <group license="GNU General Public License v3.0">
     <command name="run" path="Mindustry.jar">

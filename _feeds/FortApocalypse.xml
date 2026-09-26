@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://arcade.radicalgnu.xyz/FortApocalypse.xml">
+  <name>Fort Apocalypse</name>
+  <summary>a 4-way side-scrolling game, somewhat similar to Choplifter</summary>
+
+  <description>
+    The war with the Kralthans is on, and they've taken prisoners. These 
+    people must be rescued from the Draconis caves and the Crystaline 
+    caves that are located just outside the Kralthan main command 
+    center, Fort Apocalypse. The Fort is too powerful to attack 
+    directly, but perhaps a single rocket copter, carefully controlled 
+    might be able to do what an army cannot. However the caves are 
+    narrow and the enemy has still setup impact shields, defenses and 
+    Hyper-Chambers within their depths.
+  </description>
+
+  <icon href="https://www.atariarchives.org/favicon.ico" type="image/vnd.microsoft.icon"/>
+
+  <homepage>http://atariarchives.org/swlibrary/</homepage>
+
+  <feed-for interface="https://arcade.radicalgnu.xyz/FortApocalypse.xml"/>
+
+  <group license="Unknown - Abandonware">
+    <!-- Fort Apocalypse runs on the Atari 400/800/XL/XE architecture,
+         so we summon the Atari800 emulator as a runner -->
+    <command name="run" path="FORTAPOCALYPSE.ATR">
+      <runner interface="https://feeds.radicalgnu.xyz/Atari800.xml"/>
+    </command>
+
+    <implementation id="FORTAPOCALYPSE.ATR" version="0.1" released="2025-12-16">
+      <manifest-digest sha256new="KD4YCA3BSVQ6L7DSZ4KF4QAS7DZWXAYXEWECUKCDQMDNQ5AGB3SA"/>
+      <file dest="FORTAPOCALYPSE.ATR" href="http://atariarchives.org/swlibrary/software/FORTAPOCALYPSE.ATR" size="17168"/>
+    </implementation>
+  </group>
+</interface>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface" uri="https://arcade.radicalgnu.xyz/Anarch.xml">
+  <name>Anarch HD</name>
+  <summary>suckless, anticapitalist, public domain game for everyone</summary>
+
+  <description>
+    Anarch isn't a 90s style retro shooter, it *is* a 90s shooter.
+
+    This game runs everywhere and adheres to great simplicity. It is 
+    much more efficient and portable than Doom and has completely *no 
+    dependencies*. Not even floating point is used, in case your 
+    computer doesn't have the HW unit. The game can fit into *200 KB* 
+    (including assets!) and can run with just *32 KB RAM*. No build 
+    system, library, internet connection or package manager is 
+    inherently required for compilation as the whole game is written in 
+    pure C language.
+  </description>
+
+  <homepage>https://drummyfish.gitlab.io/anarch/</homepage>
+
+  <icon href="https://drummyfish.gitlab.io/anarch/media/logo_big.png" type="image/png"/>
+
+  <feed-for interface="https://arcade.radicalgnu.xyz/Anarch.xml"/>
+
+  <group license="CC0 1.0 Universal">
+    <!--There were two previous versions: 1-0 and 1-01. The author 
+    removes old versions when new ones are available, so they are not 
+    longer available and 1-02 may become unavailable.-->
+    <implementation version="1-02" arch="Linux-x86_64" released="2025-12-16" id="sha1new=08d44283807278a2fb7ed85de96f598022dcb57e">
+      <manifest-digest sha256new="MGVTA6T24L5TXQ5HKZXIEBK4X32JY3ZHMLR5DEEWNHOQ24JUJOVA"/>
+      <file href="https://gitlab.com/drummyfish/anarch/-/raw/master/bin/Anarch_linux64_sdl_elf_hd_1-02" dest="Anarch_linux64_sdl_elf_hd_1-02" executable="true" size="297248"/>
+      <command name="run" path="Anarch_linux64_sdl_elf_hd_1-02"/>
+    </implementation>
+  </group>
+</interface>

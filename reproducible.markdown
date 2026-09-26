@@ -5,26 +5,13 @@ Reproducibility can mean a few different things. In free software development an
 
 ## Reproducing for Target Platforms
 
-Some games are difficult to get running on certain target systems. [_Doom_ has famously been ported](https://en.wikipedia.org/wiki/It_runs_Doom) to many different systems. [Mindustry](Mindustry.xml)
+Some games are difficult to get running on certain target systems. [_Doom_ has famously been ported](https://en.wikipedia.org/wiki/It_runs_Doom) to many different systems. Other games are cross-platform in principle but depend on libraries that are unavailable for certain processors, or are too resource-intensive to be playable on fairly powerful low-end devices.
 
+## Reproducing Objects and Libraries
 
-Good games should be designed for reproducability. Sometimes achieving 
-this is as simple as giving the user an open source license to your 
-code, but it goes further than that. Game code should use 
-comprehensible functions and objects to promote innovation on top of 
-the original ideas. The code should also be easy to port to different 
-platforms if need be.
+## Reproducing Mechanics and Concepts
 
-Its even better if a game has mechanics and concepts that are easy to 
-understand and reproduce. Of course, there's plenty of room for games 
-to fill every esoteric niche, but think of the lasting popularity of 
-timeless concepts like Asteroids and Sokoban.
-
-- Asteroids
-- Flappy Bird
-- Snake
-- Sokoban
-- Tetris
+## Freedom of Source Code
 
 Additional Considerations
 -------------------------

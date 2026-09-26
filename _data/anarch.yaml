@@ -1,0 +1,25 @@
+name: Anarch HD
+summary: suckless, anticapitalist, public domain game for everyone
+description: >-
+    Anarch isn't a 90s style retro shooter, it *is* a 90s shooter.
+
+    This game runs everywhere and adheres to great simplicity. It is 
+    much more efficient and portable than Doom and has completely *no 
+    dependencies*. Not even floating point is used, in case your 
+    computer doesn't have the HW unit. The game can fit into *200 KB* 
+    (including assets!) and can run with just *32 KB RAM*. No build 
+    system, library, internet connection or package manager is 
+    inherently required for compilation as the whole game is written in 
+    pure C language.
+homepage: https://drummyfish.gitlab.io/anarch/
+group:
+  license: CC0 1.0 Universal
+  implementation:
+    file:
+      href: https://gitlab.com/drummyfish/anarch/-/raw/master/bin/Anarch_linux64_sdl_elf_hd_{version}
+      dest: Anarch_linux64_sdl_elf_hd_{version}
+      executable: true
+      command:
+        name: run
+        path: Anarch_linux64_sdl_elf_hd_{version}
+        
